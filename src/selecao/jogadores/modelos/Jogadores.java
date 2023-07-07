@@ -7,7 +7,7 @@ public class Jogadores {
     private int numero;
     private String nome;
 
-    public Jogadores(String selecao,int numero,String nome){
+    public Jogadores(String selecao,int numero,String nome, String posicao){
         this.nome = nome;
         this.numero =numero;
         this.posicao = posicao;
@@ -18,22 +18,12 @@ public class Jogadores {
         return numero;
     }
 
-    
-
     public String getNome() {
         return nome;
     }
 
-    public void setNome(String nome) {
-        this.nome = nome;
-    }
-
     public String getSelecao() {
         return selecao;
-    }
-
-    public void setSelecao(String selecao) {
-        this.selecao = selecao;
     }
 
     public String getPosicao() {
@@ -44,8 +34,8 @@ public class Jogadores {
         this.posicao = posicao;
     }
     public void exibirMensagem(){
-        System.out.printf("Jogador: %s Camisa: %d selecao: %s nome: ",
-                getNome(),getNumero(),getSelecao() );
+        System.out.printf("Jogador: %s Camisa: %d Seleção: %s Posição: %s ",
+                getNome(),getNumero(),getSelecao(),getPosicao());
     }
 
 

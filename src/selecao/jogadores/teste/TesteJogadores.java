@@ -6,31 +6,34 @@ import java.util.Scanner;
 
 public class TesteJogadores {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        Scanner leitura = new Scanner(System.in);
 
         System.out.println("nome do Jogador: ");
-        String nome1= sc.nextLine();
-        System.out.println("Seleo: ");
-        String selecao1 = sc.nextLine();
+        String nome1= leitura.nextLine();
+        System.out.println("Seleção: ");
+        String selecao1 = leitura.nextLine();
+        System.out.println("Posição do jogador: ");
+        String posicao1 = leitura.nextLine();
         System.out.println("Numero da camisa: ");
-        int numero1= sc.nextInt();
+        int numero1= leitura.nextInt();
 
-        sc.nextLine();
+        leitura.nextLine();
 
         System.out.println("nome do Jogador: ");
-        String nome2= sc.nextLine();
-        System.out.println("Seleo: ");
-        String selecao2 = sc.nextLine();
+        String nome2= leitura.nextLine();
+        System.out.println("Seleção: ");
+        String selecao2 = leitura.nextLine();
+        System.out.println("Posição do jogador: ");
+        String posicao2 = leitura.nextLine();
         System.out.println("Numero da camisa: ");
-        int numero2= sc.nextInt();
+        int numero2= leitura.nextInt();
 
-        Jogadores jogador1 = new Jogadores(selecao1,numero1,nome1);
-        sc.nextLine();
-        Jogadores jogador2 = new Jogadores(selecao2,numero2,nome2);
+        Jogadores jogador1 = new Jogadores(selecao1,numero1,nome1, posicao1);
+        leitura.nextLine();
+        Jogadores jogador2 = new Jogadores(selecao2,numero2,nome2,posicao2);
 
         jogador1.exibirMensagem();
-        sc.nextLine();
         jogador2.exibirMensagem();
-
+        leitura.nextLine();
     }
 }

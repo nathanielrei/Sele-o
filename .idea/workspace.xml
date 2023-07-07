@@ -5,14 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e2a04521-d999-4541-b120-5698e0c29a28" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/selecao.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/selecao/jogadores/modelos/Jogadores.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/selecao/jogadores/teste/TesteJogadores.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/selecao/jogadores/modelos/Jogadores.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/selecao/jogadores/modelos/Jogadores.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/selecao/jogadores/teste/TesteJogadores.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/selecao/jogadores/teste/TesteJogadores.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,9 +33,30 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/IdeaProjects/exercicio-faculdade-extensao",
     "onboarding.tips.debug.path": "C:/Users/Master/Desktop/estudo 1/selecao/src/Main.java"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="TesteJogadores" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="selecao.jogadores.teste.TesteJogadores" />
+      <module name="selecao" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="selecao.jogadores.teste.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.TesteJogadores" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -57,7 +73,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/selecao/jogadores/teste/TesteJogadores.java</url>
-          <line>15</line>
+          <line>17</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
