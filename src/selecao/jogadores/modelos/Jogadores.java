@@ -7,7 +7,7 @@ public class Jogadores {
     private int numero;
     private String nome;
 
-    public Jogadores(String selecao,int numero,String nome, String posicao){
+    public Jogadores(String nome ,String selecao,int numero, String posicao){
         this.nome = nome;
         this.numero =numero;
         this.posicao = posicao;
@@ -36,8 +36,8 @@ public class Jogadores {
 
     @Override
     public String toString() {
-        return "Jogador: " + nome + " Camisa do jogador: "
-                + numero + " Posição do Jogador: " +
-                posicao + " Seleção em que o Jogador joga: " + selecao;
+        return "(Nome do Jogador: " + this.nome + ") (Camisa do jogador: "
+                + numero + ") (Posição do Jogador: " +
+                posicao + ") (Seleção em que o Jogador joga: " + selecao +")";
     }
 }
