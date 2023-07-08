@@ -33,14 +33,11 @@ public class Jogadores {
     public void setPosicao(String posicao) {
         this.posicao = posicao;
     }
-    public void exibirMensagem(){
-        System.out.printf("Jogador: %s Camisa: %d Seleção: %s Posição: %s ",
-                getNome(),getNumero(),getSelecao(),getPosicao());
+
+    @Override
+    public String toString() {
+        return "Jogador: " + nome + " Camisa do jogador: "
+                + numero + " Posição do Jogador: " +
+                posicao + " Seleção em que o Jogador joga: " + selecao;
     }
-
-
-
-
-
-
 }
