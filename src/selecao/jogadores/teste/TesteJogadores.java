@@ -32,8 +32,12 @@ public class TesteJogadores {
         leitura.nextLine();
         Jogadores jogador2 = new Jogadores(selecao2,numero2,nome2,posicao2);
 
-        jogador1.exibirMensagem();
-        jogador2.exibirMensagem();
-        leitura.nextLine();
+//        jogador1.exibirMensagem();
+//        jogador2.exibirMensagem();
+//        leitura.nextLine();
+
+        System.out.println(jogador1);
+        System.out.println("-----------------------------------------");
+        System.out.println(jogador2);
     }
 }
