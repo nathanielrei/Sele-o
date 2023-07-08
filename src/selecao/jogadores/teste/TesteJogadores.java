@@ -17,9 +17,9 @@ public class TesteJogadores {
         int numeroTime = leitura.nextInt();
         int jogadores = 1;
         while (jogadores<=numeroTime) {
-
+            leitura.nextLine();
             System.out.println("nome do Jogador: ");
-            String nome = leitura.next();
+            String nome = leitura.nextLine();
             System.out.println("--------------------------------------------------------------");
             System.out.println("Seleção: ");
             String selecao = leitura.next();

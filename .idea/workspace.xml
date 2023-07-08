@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e2a04521-d999-4541-b120-5698e0c29a28" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/selecao/jogadores/modelos/Jogadores.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/selecao/jogadores/modelos/Jogadores.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/selecao/jogadores/teste/TesteJogadores.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/selecao/jogadores/teste/TesteJogadores.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -67,5 +66,20 @@
       <updated>1688753380477</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/selecao/jogadores/teste/TesteJogadores.java</url>
+          <line>11</line>
+          <properties class="selecao.jogadores.teste.TesteJogadores" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
