@@ -1,43 +1,39 @@
 package selecao.jogadores.teste;
+
 import selecao.jogadores.modelos.Jogadores;
-import java.util.Scanner;
+
+import java.util.ArrayList;
+import java.util.*;
+
 
 //test
 
 public class TesteJogadores {
     public static void main(String[] args) {
         Scanner leitura = new Scanner(System.in);
+        ArrayList list = new ArrayList<Jogadores>();
 
-        System.out.println("nome do Jogador: ");
-        String nome1= leitura.nextLine();
-        System.out.println("Seleção: ");
-        String selecao1 = leitura.nextLine();
-        System.out.println("Posição do jogador: ");
-        String posicao1 = leitura.nextLine();
-        System.out.println("Numero da camisa: ");
-        int numero1= leitura.nextInt();
+        System.out.println("quantos jogadores vc quer?");
+        int numeroTime = leitura.nextInt();
+        int jogadores = 1;
+        while (jogadores<=numeroTime) {
 
-        leitura.nextLine();
+            System.out.println("nome do Jogador: ");
+            String nome = leitura.next();
+            System.out.println("--------------------------------------------------------------");
+            System.out.println("Seleção: ");
+            String selecao = leitura.next();
+            System.out.println("--------------------------------------------------------------");
+            System.out.println("Posição do jogador: ");
+            String posicao = leitura.next();
+            System.out.println("--------------------------------------------------------------");
+            System.out.println("Numero da camisa: ");
+            int numero = leitura.nextInt();
 
-        System.out.println("nome do Jogador: ");
-        String nome2= leitura.nextLine();
-        System.out.println("Seleção: ");
-        String selecao2 = leitura.nextLine();
-        System.out.println("Posição do jogador: ");
-        String posicao2 = leitura.nextLine();
-        System.out.println("Numero da camisa: ");
-        int numero2= leitura.nextInt();
-
-        Jogadores jogador1 = new Jogadores(selecao1,numero1,nome1, posicao1);
-        leitura.nextLine();
-        Jogadores jogador2 = new Jogadores(selecao2,numero2,nome2,posicao2);
-
-//        jogador1.exibirMensagem();
-//        jogador2.exibirMensagem();
-//        leitura.nextLine();
-
-        System.out.println(jogador1);
-        System.out.println("-----------------------------------------");
-        System.out.println(jogador2);
+            list.add(new Jogadores(nome,selecao, numero, posicao));
+            jogadores++;
+        }
+        System.out.println(list);
     }
 }
+
