@@ -9,7 +9,7 @@ public class Jogadores {
 
     public Jogadores(String nome ,String selecao,int numero, String posicao){
         this.nome = nome;
-        this.numero =numero;
+        this.numero = numero;
         this.posicao = posicao;
         this.selecao = selecao;
     }
