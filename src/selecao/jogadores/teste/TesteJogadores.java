@@ -21,7 +21,7 @@ public class TesteJogadores {
             System.out.println("nome do Jogador: ");
             String nome = leitura.nextLine();
             System.out.println("--------------------------------------------------------------");
-            System.out.println("Seleção: ");
+            System.out.println("Seleção do jogador: ");
             String selecao = leitura.next();
             System.out.println("--------------------------------------------------------------");
             System.out.println("Posição do jogador: ");
